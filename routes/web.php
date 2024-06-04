@@ -54,5 +54,6 @@ Route::get('/view_testing',[Profile_Controller::class,'view_testing']);
 //ADMIN LOGOUT
 Route::get('/logout',[AuthController::class,'logout']);
 // Route::get('/logout',[AuthController::class,'logout']);
+// Route::get('/logout',[AuthController::class,'logout']);
 
 });
